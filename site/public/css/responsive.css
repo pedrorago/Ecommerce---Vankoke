@@ -1,0 +1,991 @@
+@media(max-width:1024px) {
+	.selects-produto {
+		justify-content: space-between;
+	}
+	.relacionados-container .produtos-box {
+		width: 31.9%;
+	}
+	.selects-produto .input {
+		width: 6em;
+		margin-right: 1em;
+	}
+	.selects-produto .label {
+		width: 7.3em;
+	}
+	.produto-view {
+		height: 29.2em;
+		width: 30.6%;
+	}
+	.produtos-photos-box {
+		height: 7.375em;	
+	}
+	.produto-photos {
+		height: 29.22em;
+	}
+	.box-esquerdaP .VtEntrega {
+		top: 98%;
+	}
+	.perfil-dados-form { 
+		flex-direction: column;
+		flex-wrap: nowrap;
+		height: auto;
+	}
+	.perfil-dados-pessoais, .perfil-dados-endereco, .perfil-dados-senha, .perfil-dados-botao{
+		width: 100%;
+	}
+	.minhaContaLink {
+		right: 12%;
+	}
+	.minhaContaLinkDisable{
+		right: 12%;
+	}
+	.Institucional-texto h4 {
+		font-size: 1.2em;
+	}
+	.Institucional-texto p {
+		font-size: 1em;
+	}
+	#Institucional main {
+		margin-bottom: 3em;
+	}
+	.Display-1 {
+		font-size: 2.8em;
+	}
+	#Lookbook h1 {
+		margin-bottom: 3em;
+	}	
+
+	.produtos-box {
+		width: 30.9%;
+	}
+	.produtos-box:nth-child(4n+1) {
+		margin-left: 1.9em;
+	}
+	.produtos-box:nth-child(3n+1) {
+		margin-left: 0em !important;
+	}
+	.outros-produtos {
+		justify-content: center;
+	}
+
+	#Perfil .produtos-box{
+		width: 73%;
+	}
+	.Produtos-navbar li {
+		margin-right: 1em;
+	}
+	.box-direitaC {
+		margin-top: 3em;
+		height: 29.188em;
+		width: 89%;
+
+		margin-left: 0;
+	}
+	.box-esquerdaC {
+		width: 100%;
+	}
+	.box-esquerdaC form {
+		justify-content: flex-start;
+	}
+	.box-esquerdaC form .label, .box-esquerdaC form .input {
+		margin-right: 2em;
+	}
+	.selectAno {
+		margin-right: 2em !important;
+	}
+	#Checkout main {
+		flex-direction: column;
+	}
+	.resumo-total-preco {
+		display: flex;
+		justify-content: flex-end;
+
+	}
+	.produtosResumo-container {
+		height: 10em;
+	}
+	.produtosDesc-resumo {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-top: 1.5em;
+	}
+	.resumo-negrito {
+		width: 39% !important;
+	}
+	.box-esquerdaE {
+		width: 100%;
+	}
+	.boxE-width2 {
+		width: 20%;
+	}
+	.boxE-width3 {
+		width: 69%;
+	} 
+	.box-esquerdaC button {
+		margin-top: 0;
+	}
+	.box-esquerdaP {
+		width: 100%;
+		display: none;
+		height: 30em;
+	} 
+	.btnConfirmar {
+		margin-top:-1em;	}
+	} 
+	@media(max-width: 768px) {
+		.produto-details {
+			margin-top: 2em;
+			width: 100%;
+		}
+		.produto-view {
+			width: 48.6%;
+		}
+		.selects-produto .input {
+			width: 27%;
+		}
+		.selects-produto .label {
+			width: 28%;
+		}
+		.relacionados-container .produtos-box {
+			width: 75.9%;
+		}
+		#ProdutoSingle main {
+			display: flex;
+			justify-content: flex-start;
+			height: auto;
+			margin-bottom: 3.5em;
+			flex-wrap: wrap;
+		}
+		.produto-photos {
+			width: 14.77%;
+		}
+		.box-esquerdaP .VtEntrega {
+			top: 110%;
+		}
+
+
+		.validoLabel {
+			width: 20em;
+		}
+		.codLabel {
+			margin-left: 1.8em;
+		}
+		.numeroCartao {
+			width: 5.7em;
+		}
+		.btnConfirmar {
+			padding: 0em 1.3em;
+		}
+
+
+		.desc-boleto {
+			margin-left: 0em;		
+		}
+		.pedidos-boxright {
+			flex-direction: column;
+		}
+		.pedidos-boxleft {
+			flex-direction: column;
+			margin-bottom: 3em;
+		}
+		.perfil-pedidos {
+			flex-direction: column;
+		}
+		.linkCheckout {
+			margin-right: .5em;
+		}
+		.pedidos-boxleft {
+			align-items: flex-start;
+			margin-bottom: 2em;
+		}
+		#Perfil .produtos-box {
+			width: 74%;
+		}
+		.outros-produtos {
+			margin-top: 1em;
+			justify-content: space-between;
+		}
+		#Produtos-catalogo main {
+			justify-content: space-between;
+		}
+		.produtos-box:nth-child(4n+1) {
+			margin-left: 0em !important;
+		}
+		#Perfil .produtos-box {
+			width: 31%;
+		}
+		.pedidos-boxright {
+			width: 100%;
+		}
+		.produtos-box {
+			width: 46%;
+			margin-left: 0;
+		}
+		.navbar-link {
+			font-size: .7em;
+		}
+		.container {
+			padding: 0em 3.625em;
+		}
+		.navbar {
+			background: #fff;
+			visibility: hidden;
+			opacity: 0;
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+			translateY(-100%);
+			width: 30%;
+			position: absolute;
+			top: 100%;
+			right: -100%;
+			border-radius: 0;
+			transition: .2s ease-in-out;
+			z-index: -1;
+			box-shadow: -8px 5px 14px 0 rgba(0, 0, 0, 0.1);
+			transition-delay: 0s
+		}
+		.menu-ativo .navbar {
+			transform: translateY(0);
+			visibility: visible;
+			opacity: 1;
+			margin-top: 0;
+			left: 0;
+			transition-delay: .1s;
+			z-index: 88;
+			position: fixed;
+			top: 7.9%;
+			display: flex;
+			height: 100%;
+		}
+		.menu-ativo .menu-abrir {
+			visibility: hidden;
+			opacity: 0
+		}
+		.menu-ativo .menu-fechar {
+			visibility: visible;
+			opacity: 1
+		}
+		.menu-ativo .navbar li {
+			margin-right: 0
+		}
+		.menu-ativo .navbar-link {
+			padding: .7em 0;
+			width: 100%;
+			margin-top: 1.6em;
+			margin-bottom: .5em
+		}
+		.menu-ativo .minhaContaLink, .menu-ativo .minhaContaLinkDisable {
+			width: 8em !important;
+			right: 12%;
+			top: -3.5%;
+			height: 2em;
+		}
+		.menu-abrir {
+			color: #2D2D2D;
+			font-size: 2em;
+			cursor: pointer;
+			position: absolute;
+			transition:.3s;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 80px;
+			height: 100%;
+			left: -1%;
+		}
+		.menu-fechar {
+			color: #2D2D2D;
+			font-size: 2em;
+			cursor: pointer;
+			visibility: hidden;
+			opacity: 0;
+			width: 80px;
+			height: 100%;
+			left:-1%;
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			align-items: center
+		}
+		.nav-links {
+			width: 100%;
+			transition: 1s
+		}
+		nav li {
+			width: 100%;
+			height: 6em;
+		}
+		.colecao-texto {
+			padding: 2.688em .7em;
+		}
+		.colecao-texto p {
+			font-size: .7em;
+		}
+/*	.produtos-box {
+		margin-left: 0;
+		width: 40%;
+		}*/
+		#MaisVendidas main {
+			justify-content: space-between;
+		}
+		#Contato main {
+			flex-direction: column;
+			align-items: center;
+			height: auto;
+			margin-top: 2em;
+		}
+		#Contato .newsLetter {
+			position: static;
+		}
+		#Contato {
+			margin-bottom: 2em;
+			height: auto;
+		}
+		#Contato .mapa {
+			width: 80.5%;
+			background-color: black;
+			margin-top: 2em;
+			height: 25em;
+		}
+		footer .politicas a {
+			font-size: .8em;
+		}
+		footer .redes-sociais {
+			width: 11em;
+			margin-left: -2em;
+		}
+		.footer .redes-sociais a {
+			margin-right: 1.375em;
+		}
+		footer .redes-sociais a {
+			margin-right: 1.375em;
+		}
+		#Institucional main {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.Institucional-texto {
+			width: 86%;
+		}
+		.Institucional-texto p {
+			font-size: 1em;
+		}
+		.Institucional-fotos {
+			margin-top: 2em;
+			margin-bottom: 6em;
+			width: 100%;
+		}
+		.Institucional-fotos .galeria {
+			width: 85%;
+			margin-right: 3em;
+		}
+		.menu-ativo .navbar li {
+			height: 4em;
+		}
+		#Lookbook main {
+			justify-content: space-between;
+		}
+		.lookbook-box {
+			margin-left: 0;
+			width: 49%;
+			margin-bottom: 1em;
+		}
+		.lookbook-box:nth-child(3n+2) {
+			margin-top: 0;
+		}
+		.lookbook-box:nth-child(3n+3){
+			margin-top: 0;
+		}
+		#Lookbook h1 {
+			margin-bottom: 0em;
+		} 
+		#ContatoPage main {
+			flex-direction: column;
+		}
+		.contatoForm-container, .contatoMapa {
+			width: 100%;
+		}
+		.minhaContaLink, .minhaContaLinkDisable {
+			font-size: 0.813em !important
+		}
+	}
+	@media not all and (max-width:768px) {
+		.menu-abrir,
+		.menu-fechar {
+			display: none
+		}
+	}
+	@media(max-width: 425px) {
+		.codLabel {
+			margin-left: 1.8em;
+		}
+		.codCartao {
+			width: 7.6em;
+		}
+		.numeroCartao {
+			width: 5.7em;
+		}
+		.validoLabel {
+			width: 5em;
+		}
+		.numeroCartao {
+			width: 4em;
+		}
+		.box-esquerdaP .VtEntrega {
+			top: 195%;
+		}
+		.cartaoForm input {
+			margin-bottom: 2em;
+			width: 100%;
+		}
+		.box-esquerdaP {
+			height: 54em;
+		}
+		.formLogado h2 {
+			font-size: 1.5em;
+		}
+		.box-direitaC {
+			margin-top: 6em;
+		}
+		.VtEntrega {
+			top: 117%;
+			padding: .3em 2.8em;
+		}
+		.desc-boleto {
+			margin-top: 0.3em;
+		}
+		.box-esquerdaP .planos {
+			margin-left: 4em;
+			margin-bottom: 2em;
+		}
+		.box-direitaC {
+			height: 32.188em;
+			width: 83%;
+		}
+		.box-esquerdaC button {
+			margin-left: 0;
+			width: 34%;
+			font-size: 1.2em;
+			margin-top: 0;
+			text-align: center;
+		}
+		#Checkout {
+			padding-top: 3em;
+		}
+		.perfil-dados-botao {
+			justify-content: center;
+			align-items: center;
+		}
+		#Perfil {
+			padding-top: 5em;
+		}
+		.width80 {
+			width: 73%;
+		}
+		.input50 {
+			width: 46%;
+		}
+		.width20 {
+			width: 20%;
+		}
+		.perfil-dados-pessoais select {
+			width: 5.781em;
+		}
+		.label50 {
+			width: 46%;
+		}
+		.contatoMapa {
+			margin-top: -11em;
+			margin-bottom: 2em;
+		}
+		.formLogado .seta {
+			display: none;
+		}
+		.formLogadoOn {
+			right: 2%;
+		}
+		.Produtos-navbar {
+			height: 5.5em;	
+		}
+		.Produtos-banner .filtro-box {
+			margin-top: 4.4em;
+		}
+		.Produtos-navbar ul {
+			flex-wrap: wrap;
+		}
+		.Produtos-navbar li {
+			height: 41%;
+			width: 18%;
+		}
+		.lookbook-box {
+			width: 100%;
+
+		}
+		#Lookbook h1 {
+			font-size: 2.7em;
+		}
+		.lookLink {
+			margin-right: 2em;
+		}
+		#Contato .newsLetter{
+			width: 65%;
+		}
+		footer {
+			height: 7.75em;
+		}
+		.btn-seeEverybody {
+			padding: .1em 6.99em;
+			margin-top: 1em;
+		}
+		footer main {
+			flex-direction: column;
+			align-items: center;
+		}
+		footer .politicas {
+			display: flex;
+			align-items: center;
+			margin-top: 1em;
+		}
+		footer .redes-sociais {
+			width: 100%;
+			display: flex;
+			margin-top: 1em;
+			margin-bottom: .5em;
+			margin-left: 0em;
+		}
+		footer .redes-sociais a {
+			margin-right: 1.375em;
+		}
+		footer .desenvolvido {
+			width: 77%;
+		}
+		.minhaContaLink, .minhaContaLinkDisable{
+			right: 19%;
+		}
+		.formLoginOn, .formCadastroOn, .formRecuperarOn {
+			right: 2%;
+
+		}
+		.formLogin .btn-three {
+			margin-top: -0.6em;
+		}
+		.formRecuperar .seta, .formLogin .seta, .formCadastro .seta {
+			display: none;
+		}
+		.formRecuperar, .formLogin, .formCadastro {
+			height: 27.75em;
+			top: 9%;
+		}
+		#BannerHome .Display-1 {
+			bottom: 36%;
+			font-size: 2em;
+		}
+		#BannerHome .btn-primary {
+			bottom: 23%;
+			padding: .4em 2em;
+		}
+		#BannerHome .slick-dots li {
+			width: 3.375em;
+		}
+		.container {
+			padding: 0em 1.625em;
+		}
+		.AncoraLogo {
+			margin-left: 2.5em;
+		}
+		.colecao-container {
+			flex-direction: column;
+		}
+		.colecao-img, .colecao-texto {
+			width: 100%;
+			height: 50%;
+		}
+		.colecao-texto {
+			padding: 2.688em .1em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+		.colecao-texto p {
+			padding: 0em 2em;
+		}
+		.Display-2 {
+			font-size: 2em;
+		}
+		#MaisVendidas main {
+			justify-content: center;
+		}
+		/*.produtos-box {
+			width: 67%;
+			}*/
+			.produtos-box {
+				width: 100%;
+			}
+			.btn-seeEverybody {
+				padding: .1em 5.99em;	
+			}
+			.newsLetter .Display-2 {
+				font-size: 1.8em;
+			}
+			footer .desenvolvido {
+				width: 64%;
+			}
+			.menu-ativo .navbar {
+				width: 48%;
+			}
+			.menu-ativo .minhaContaLink, .menu-ativo .minhaContaLinkDisable {
+				top: -4.3%;
+			}
+			.menu-ativo .navbar {
+				top: 7.8%;
+			}
+			.menu-ativo .minhaContaLink, .menu-ativo .minhaContaLinkDisable {
+				right: 19%;
+				top: -4%;
+			}
+			.formCarrinho {
+				height: 27em;
+			}
+			.formCarrinhoOn {
+				right: 2.22%;	
+			}
+			.produtos-carrinho-container {
+				height: 53%;
+			}
+			.formCarrinho .seta {
+				display: none;
+			}
+			.colecao-img {
+				border-radius: 5px 0px 0px 0px;
+			}
+			#BannerInstitucional h1 {
+				margin-left: 0.6em;
+			}
+			.Produtos-banner .filtro-box {
+				display: none;
+			}
+			.perfil-pedidos {
+				margin-top: 3em;
+			}
+			.pedidos-desc {
+				padding: .7em .5em;
+			}
+			.btn-status {
+				font-size: 10px;
+				margin-right: 3em;
+			}
+			#Perfil .produtos-box {
+				width: 49%;
+			}
+			.boxE-width1 {
+				width: 41%;
+			}
+			.box-esquerdaE .input {
+				width: 100% !important;
+			}
+			.boxE-width3 {
+				width: 63%;
+			}
+			.inputRadio {
+				width: 24px !important;
+			}
+			.planos {
+				margin-left: 2em;
+			}
+			.btnPagamento {
+				width: 100%;
+				padding: 0em 5em;
+			}
+			#ProdutoSingle main {
+				flex-direction: column;
+			}
+			.produto-view {
+				width: 100%;
+			}
+			.produto-photos {
+				width: 23.77%;
+				margin-top: 1em;
+				height: 8.22em;
+			}
+			#ProdutoSingle {
+				padding-top: 7em;
+			}
+		}
+		@media(max-width: 375px) {
+			.produto-details .Heading-4 {
+				margin-bottom: 2em;
+			}
+			.relacionados {
+				margin-top: -0.5em;
+			}
+			.codLabel {
+				margin-left: -0.2em;
+			}
+			.boxE-width1 {
+				width: 40%;
+			}
+			.tags-container {
+				margin-bottom: 5em;
+				margin-top: 1.8em;
+			}
+
+
+			.boxE-width3 {
+				width: 62%;
+			}
+			.box-esquerdaE .input {
+				width: 100% !important;
+			}
+			.planos {
+				margin-right: 0em;
+			}
+			.boxE-width1 {
+				width: 41%;
+			}
+			.box-esquerdaC select {
+				width: 17.781em !important;
+			}
+			.box-esquerdaC button {
+				margin-left: 0;
+				width: 89%;
+				font-size: 1.2em;
+				margin-top: 0;
+				text-align: center;
+			}
+			.box-esquerdaC form .input {
+				width: 100%;
+			}
+			.pedidos-desc p{
+				font-size: 12px;
+			}
+			.perfil-pedidosLinhas {
+				height: 7.875em;
+			}
+			.formLogado {
+				width: 22.438em;
+			}
+			#Produtos-catalogo .container {
+				padding: 6em 1.625em;
+			}
+			#Produtos-catalogo main {
+				justify-content: center;
+				align-items: center;
+			}
+			.Institucional-fotos .galeria {
+				width: 106%;
+				margin-right: -.6em;
+			}
+			header main .logo {
+				max-width: 76%;
+			}
+			.produtos-box {
+				width: 82%;
+			}
+			.botao-everybody {
+				margin-bottom: 0;
+			}
+			.btn-seeEverybody {
+				padding: .1em 4.99em;
+			}
+			.newsLetter .Display-2 {
+				font-size: 1.6em;
+			}
+			footer .desenvolvido {
+				width: 74%;
+			}
+			.menu-ativo .navbar {
+				top: 9%;
+			}
+			.formRecuperar, .formLogin, .formCadastro {
+				width: 22.438em;	
+			}
+			.formCarrinho {
+				width: 22.438em;
+			}
+			.carrinho-cep input {
+				width: 77%;
+			}
+			.carrinho-cep a {
+				padding: .7em 4.6em;
+				margin-left: 0em;
+			}
+			.produtos-carrinho-box {
+				width: 19em;
+			}
+			.selects-produto .input {
+				width: 26%;
+			}
+		}
+		@media(max-width: 320px) {
+
+
+
+			.box-esquerdaE .boxE-width1 {
+				width: 38%;
+			} 
+			.box-esquerdaE .boxE-width3 {
+				width: 44%;
+			}
+			.VtEntrega {
+				top: 120%;
+			} 
+			.desc-boleto {
+				font-size: 1.1em;
+			}
+			.plano-h2 {
+				font-size: .9em;
+				margin-bottom: 1.9em;
+				margin-left: .4em;
+			}
+			.box-esquerdaP .planos {
+				margin-left: 4em;
+				margin-bottom: 2em;
+				margin-top: -1.7em;
+			}
+			.outros-produtos {
+				justify-content: center;
+			}
+			#Perfil .produtos-box {
+				width: 77%;
+			}
+			.btn-status {
+				margin-right: 4em;
+				margin-top: -8em;
+			}
+			.formLogado {
+				width: 18.990em;
+			}
+			.produtos-box {
+				width: 98%;
+			}
+			.botao-everybody {
+				width: 100%;
+			}
+			.btn-seeEverybody {
+				padding: .6em 5em;
+				width: 100%;
+				font-size: 1em;
+			}
+			#Contato .newsLetter {
+				height: 17.875em;
+			}
+			footer {
+				height: 10.75em;
+			}
+			.newsLetter .Display-2 {
+				font-size: 1.5em;
+			}
+			footer .politicas {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				margin-top: 3em;
+			}
+			footer .politicas a:nth-child(1) {
+				margin-right: 0;
+			}
+			footer .politicas a {
+				margin-bottom: 2em;
+			}
+			footer .redes-sociais {
+				margin-top: 0em;
+			}
+			.menu-ativo .navbar {
+				width: 54%;
+			} 
+			.formRecuperar, .formLogin, .formCadastro {
+				width: 19.2em;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+			.formLogin h2,  .formLogin label, .formLogin input, .formLogin .btn-three {
+				margin-left: 0;
+			}
+			.formLogin label, .formRecuperar label, .formCadastro .label { 
+				width: 79%;
+			}
+			.formRecuperar label, .formRecuperar input,  .formRecuperar button {
+				margin-left: 0 !important;
+			}
+			.formCadastro button, .cadastrarVoltar, .formCadastro .input, .formCadastro .label {
+				margin-left: 0 !important;
+			}
+			.formCarrinho {
+				width: 18.99em;
+			}
+			.produtos-carrinho-box {
+				width: 16em;
+			}
+			.desc-carrinho h2, .tamanhoCorCarrinho p {
+				font-size: 11px;
+			}
+			.btnMenos, .btnMais {
+				height: 27px;
+				width: 27px;
+			}
+			.MaisMenos {
+				margin-top: .3em;
+			}
+			.contadorQuantidade {
+				font-size: 14px;
+			}
+			.preco-carrinho-produto {
+				font-size: 1em;
+			}
+			.preco-carrinho {
+				margin-left: .5em;
+			}
+			.carrinho-cep input {
+				width: 73%;
+			}
+			.carrinho-cep a {
+				padding: .7em 2.99em;
+			}
+			.input50 {
+				width: 100%;
+			} 
+			.perfil-dados-pessoais select {
+				width: 14.781em;
+			}
+			.perfil-dados-endereco {
+				margin-top: 17em;
+			}
+			.width80 {
+				width: 71%;
+			}
+			.perfil-dados-senha {
+				margin-top: 10em;
+			}
+			.perfil-dados-botao button {
+				padding: .5em 1.8em;
+				font-size: 1em;
+			}
+			.box-esquerdaC form .label {
+				width: 37%;
+			}
+			.box-direitaC {
+				width: 78%;
+			}
+			.selects-produto .label {
+				width: 27%;
+			}
+			.selects-produto .input {
+				width: 25%;
+			}
+			.produto-details button {
+				font-size: 1.1em;
+			}
+			.relacionados-container .produtos-box {
+				width: 100%;
+			}
+
+
+		}
